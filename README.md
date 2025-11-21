@@ -1,4 +1,4 @@
-# 🚀 Task 1 – Simple GET Endpoint (FastAPI)
+# Simple GET Endpoint (FastAPI)
 
 This project contains a simple GET endpoint implemented with **FastAPI**,  
 a linter (**ruff**), and automatic tests using **pytest**.  
