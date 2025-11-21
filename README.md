@@ -22,8 +22,5 @@ Run the application
 uv run uvicorn quiz_bot.main:app --reload
 
 
-Go to:
-http://localhost:8000/
-
 Run tests
 uv run pytest -q
