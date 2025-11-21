@@ -1,26 +1,54 @@
-# quiz-bot
-Task 1 – Simple GET Endpoint
+# 🚀 Task 1 – Simple GET Endpoint (FastAPI)
 
-This project implements a simple FastAPI GET endpoint.
-It returns a greeting message and includes development tools.
+This project contains a simple GET endpoint implemented with **FastAPI**,  
+a linter (**ruff**), and automatic tests using **pytest**.  
+The project follows a clean structure using the `src/` folder layout.
 
-Features
+---
 
-Simple FastAPI GET endpoint (/)
+## ✅ Features
+- FastAPI GET endpoint returning a greeting message  
+- Linter: **ruff**  
+- Automatic tests: **pytest**  
+- `.gitignore` included  
+- Clean project structure (`src/quiz_bot`)  
+- Uses **uv** for environment & dependency management  
 
-Linter: ruff
+---
 
-Automatic test: pytest
+## ▶️ Run the application
 
-Proper folder structure (src/quiz_bot)
-
-.gitignore included
-
-Uses uv for package & environment management
-
-Run the application
+```bash
 uv run uvicorn quiz_bot.main:app --reload
+🧪 Run tests
+bash
 
-
-Run tests
 uv run pytest -q
+Expected output:
+
+
+1 passed
+📁 Project Structure
+css
+
+quiz-bot/
+ ├── src/
+ │   └── quiz_bot/
+ │        ├── __init__.py
+ │        └── main.py
+ ├── tests/
+ │   └── test_main.py
+ ├── .gitignore
+ ├── pyproject.toml
+ ├── README.md
+✨ Technologies Used
+FastAPI
+
+uv
+
+pytest
+
+ruff
+
+👩‍💻 Author
+Feyza Balaban
